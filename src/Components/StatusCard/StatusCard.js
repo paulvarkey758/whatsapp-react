@@ -8,7 +8,7 @@ function StatusCard(props) {
       <div className="status-card">
         <div className="status-outer">
             <div className="status-container">
-                <img src="./whatsapp-react/images/avatar.png" alt="" className="status" />
+                <img src="./images/avatar.png" alt="" className="status" />
             </div>
         </div>
         <div className="status-details">

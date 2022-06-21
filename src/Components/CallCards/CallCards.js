@@ -8,7 +8,7 @@ function CallCards(props) {
       <div className="call-cards">
         <div className="call-outer">
             <div className="call-container">
-                <img src="./whatsapp-react/images/avatar.png" alt="" className="call" />
+                <img src="./images/avatar.png" alt="" className="call" />
             </div>
         </div>
         <div className="call-name">
@@ -16,7 +16,7 @@ function CallCards(props) {
         </div>
         <div className="call-i-container">
             <div className="i-wrapper">
-                <img src="./whatsapp-react/images/call.png" alt="" className="icon" />
+                <img src="./images/call.png" alt="" className="icon" />
             </div>
         </div>
       </div>
