@@ -1,0 +1,18 @@
+:root{
+    --button-size:2rem;
+}
+.h-button{
+    width: var(--button-size);
+    height: var(--button-size);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-button:hover{
+    background-color: rgba(255, 255, 255, 0.242);
+}
+.button-image{
+    width: 75%;
+}

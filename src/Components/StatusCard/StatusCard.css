@@ -1,0 +1,40 @@
+
+:root{
+    --status-height:5.5rem;
+}
+.status-card{
+    width: 100%;
+    height: var(--status-height);
+}
+.status-outer{
+    width: var(--status-height);
+    height: 100%;
+    display: inline-block;
+}
+.status-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status{
+    width: 85%;
+    height: 85%;
+    border: 5px solid #006257;
+    border-radius: 50%;
+}
+.status-details{
+    display: inline-block;
+    height: 100%;
+    width: calc(100% - var(--status-height));
+    vertical-align: top;
+    font-size: 1.2rem;
+}
+.details-wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-left: 1.5rem;
+}

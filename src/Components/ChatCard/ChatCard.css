@@ -1,0 +1,39 @@
+:root{
+    --chat-height:4.5rem;
+}
+.chat-card{
+    width: 100%;
+    height: var(--chat-height);
+    margin-bottom: 0.5rem;
+}
+.dp-outer{
+    display: inline-block;
+    width: var(--chat-height) ;
+    height: 100%;
+}
+.dp-container{
+    width: 100% ;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dp{
+    width: 90%;
+    height: 90%;
+}
+.details-container{
+    display: inline-block;
+    width: calc(100% - var(--chat-height));
+    height: 100%;
+    padding: 0.2rem 1rem 0.5rem;
+    vertical-align: top;
+}
+.name-box{
+    width: 100%;
+    height: calc(var(--chat-height)/2);
+}
+.message{
+    width: 100%;
+    height: calc(var(--chat-height)/2);
+}
