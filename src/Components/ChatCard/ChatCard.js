@@ -8,7 +8,7 @@ function ChatCard(props) {
       <div className="chat-card">
         <div className="dp-outer">
           <div className="dp-container">
-              <img src="/images/avatar.png" alt="" className="dp" />
+              <img src="./whatsapp-react/images/avatar.png" alt="" className="dp" />
           </div>
         </div>
         <div className="details-container">

@@ -6,7 +6,7 @@ function HeaderButton(props) {
   return (
     <div>
       <div className="h-button">
-        <img src={`/images/${props.name}`} alt="" className="button-image" />
+        <img src={`./whatsapp-react/images/${props.name}`} alt="" className="button-image" />
       </div>
     </div>
   )
